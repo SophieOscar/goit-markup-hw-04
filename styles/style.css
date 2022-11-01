@@ -29,7 +29,9 @@ body {
     align-items: center;
     padding-top: 200px;
     padding-bottom: 200px;
-    background-color: var(--header-color);
+    max-width: 1600px;
+    height: 600px;
+    background-color: var(--footer-header-color);
     background-image: linear-gradient(to right, var(--header-color), var(--header-color)), url("../images/teams.jpg");
     background-repeat: no-repeat;
     background-position: center;
