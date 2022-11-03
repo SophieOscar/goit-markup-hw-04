@@ -156,7 +156,7 @@ body {
 
 }
 .antenna-icon::before {
-    background-image: url(*../images/antenna1.svg);
+    background-image: url("../images/antenna1.svg");
 }
 .activities {
     padding-top: 94px;
