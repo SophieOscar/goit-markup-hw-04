@@ -162,6 +162,9 @@ body {
 .clock-icon::before {
     background-image: url("../images/clock1.svg");
 }
+.diagram-icon::before {
+    background-image: url("../images/diagram1.svg");
+}
 .activities {
     padding-top: 94px;
     padding-bottom: 94px;
