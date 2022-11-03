@@ -148,6 +148,7 @@ body {
 }
 .studio-facts-item::before {
     display: block;
+    content: "";
     height: 120px;
     background-size: content;
     background-repeat: no-repeat;
@@ -157,6 +158,9 @@ body {
 }
 .antenna-icon::before {
     background-image: url("../images/antenna1.svg");
+}
+.clock-icon::before {
+    background-image: url("../images/clock1.svg");
 }
 .activities {
     padding-top: 94px;
