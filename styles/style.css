@@ -154,7 +154,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-color: #F5F4FA;
-
 }
 .antenna-icon::before {
     background-image: url("../images/antenna1.svg");
@@ -164,6 +163,9 @@ body {
 }
 .diagram-icon::before {
     background-image: url("../images/diagram1.svg");
+}
+.astronaut-icon::before {
+    background-image: url("../images/astronaut1.svg");
 }
 .activities {
     padding-top: 94px;
