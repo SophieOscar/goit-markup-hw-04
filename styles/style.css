@@ -313,7 +313,7 @@ body {
     content: "";
     height: 12px;
     outline: 1px solid red;
-    background-image: url("../images/phone.svg");
+    background-image: url("../images/smartphone.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
