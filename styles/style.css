@@ -114,6 +114,7 @@ body {
 }
 .envelope-icon::before {
     display: inline-block;
+    margin-left: 10px;
     content: "";
     height: 12px;
     outline: none;
