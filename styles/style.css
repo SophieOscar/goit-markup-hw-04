@@ -294,19 +294,11 @@ body {
     color: var(--web-text);
 }
 .envelope-icon::before {
-    display: inline-block;
-    margin-left: 10px;
     width: 16px;
-    content: "";
     height: 12px;
-    outline: 1px solid red;
-    background-image: url("../images/envelopeh.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    
 }
-
-.phone-icon::before {
+/*.phone-icon::before {
     display: inline-block;
     margin-left: 10px;
     width: 16px;
@@ -318,7 +310,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-color: var(--back-color);
-}
+}*/
 .facts-header {
     margin-top: 0px;
     padding: 0px;
