@@ -113,7 +113,14 @@ body {
    
 }
 .envelope-icon::before {
+    display: block;
+    content: "";
+    height: 12px;
+    outline: none;
     background-image: url("../images/envelopeh.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .phone-icon::before {
     background-image: url("../images/phone.svg");
