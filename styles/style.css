@@ -293,24 +293,7 @@ body {
 .link:hover, .link:focus {
     color: var(--web-text);
 }
-.envelope-icon::before {
-    width: 16px;
-    height: 12px;
-    
-}
-/*.phone-icon::before {
-    display: inline-block;
-    margin-left: 10px;
-    width: 16px;
-    content: "";
-    height: 12px;
-    outline: 1px solid red;
-    background-image: url("../images/smartphone.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: var(--back-color);
-}*/
+
 .facts-header {
     margin-top: 0px;
     padding: 0px;
