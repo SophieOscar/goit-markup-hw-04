@@ -113,7 +113,7 @@ body {
    
 }
 .envelope-icon::before {
-    display: block;
+    display: inline-block;
     content: "";
     height: 12px;
     outline: none;
