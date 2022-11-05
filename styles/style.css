@@ -112,6 +112,12 @@ body {
     margin-bottom: 0px;
    
 }
+.envelope-icon::before {
+    background-image: url("../images/envelopeh.svg");
+}
+.phone-icon::before {
+    background-image: url("../images/phone.svg");
+}
 .address-list .item:not(:last-child) {
     margin-right: 50px;
 }
