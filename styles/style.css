@@ -115,6 +115,19 @@ body {
 .address-list .item:not(:last-child) {
     margin-right: 50px;
 }
+.icon-smartphone {
+    margin-right: 10px;
+}
+.header-link:hover .icon-smartphone {
+    fill: var(--web-text);
+}
+.envelope-icon {
+    margin-right: 10px;
+}
+.header-link:hover .envelope-icon {
+    fill: var(--web-text);
+}
+
 .list-addr {
     display: block;
     padding: 0px;
@@ -283,16 +296,20 @@ body {
 }
 
 .header-link {
+    display: flex;
+    align-items: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
     color: var(--head-link);
+    fill: var(--head-link);
 
 }
 .link:hover, .link:focus {
     color: var(--web-text);
 }
+
 
 .facts-header {
     margin-top: 0px;
