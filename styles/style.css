@@ -112,20 +112,6 @@ body {
     margin-bottom: 0px;
    
 }
-.envelope-icon::before {
-    display: inline-block;
-    margin-left: 10px;
-    content: "";
-    height: 12px;
-    outline: none;
-    background-image: url("../images/envelopeh.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.phone-icon::before {
-    background-image: url("../images/phone.svg");
-}
 .address-list .item:not(:last-child) {
     margin-right: 50px;
 }
@@ -306,6 +292,29 @@ body {
 }
 .link:hover, .link:focus {
     color: var(--web-text);
+}
+.envelope-icon::before {
+    display: inline-block;
+    margin-left: 10px;
+    content: "";
+    height: 12px;
+    outline: none;
+    background-image: url("../images/envelopeh.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.phone-icon::before {
+    display: inline-block;
+    margin-left: 10px;
+    content: "";
+    height: 12px;
+    outline: 1px solid red;
+    background-image: url("../images/phone.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .facts-header {
     margin-top: 0px;
