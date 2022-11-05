@@ -295,8 +295,8 @@ body {
 }
 .envelope-icon::before {
     display: inline-block;
-    width: 16px;
     margin-left: 10px;
+    width: 16px;
     content: "";
     height: 12px;
     outline: 1px solid red;
