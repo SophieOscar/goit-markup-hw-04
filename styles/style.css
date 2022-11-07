@@ -250,6 +250,27 @@ body {
 .studio-team-container .name-card:not(:last-child) {
     margin-right: 30px;
 }
+.clients {
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+.client {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.client-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    color: #AFB1B8;
+}
+.logo-icon {
+    fill: currentColor;
+}
 .text-web {
     margin-right: 90px;
     font-family: 'Raleway', sans-serif;
