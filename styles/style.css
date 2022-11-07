@@ -267,6 +267,8 @@ body {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     color: #AFB1B8;
+    width: 170px;
+    height: 92px;
 }
 .logo-icon {
     fill: currentColor;
