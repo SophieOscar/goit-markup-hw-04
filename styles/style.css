@@ -200,8 +200,8 @@ body {
 }
 .footer {
     background-color: var(--footer-header-color);
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 18px;
+    padding-bottom: 64px;
 
 }
 .button-list {
@@ -387,7 +387,10 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--head-link);
-    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .address {
     font-family: 'Roboto', sans-serif;
@@ -415,6 +418,7 @@ body {
     background-color: var(--back-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    padding: 0px;
 }
 .portfolio-head {
     width: 332px;
@@ -488,6 +492,93 @@ body {
     padding-top: 94px;
     padding-bottom: 94px;
 }
+.social {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    gap: 10px;
+    padding-left: 0px;
+}
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #AFB1B8;
+    width: 44px;
+    height: 44px;
+}
+
+.social-link:hover,
+.social-link:focus {
+    background: var(--web-text);
+}
+
+.social-icon {
+    fill: var(--back-color);
+}
+.join-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--back-color);
+    margin-bottom: 20px;
+}
+.container-footer {
+    display: flex;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.join {
+    display: block;
+    width: 210px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+.footer-web {
+    display: block;
+    width: 210px;
+    margin-left: 25px;
+    margin-right: 70px;
+    margin-bottom: 0px;
+}
+.social-team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-left: 0px;
+    margin-bottom: 30px;
+}
+
+.social-team-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 100px;
+    color: #AFB1B8;
+    width: 44px;
+    height: 44px;
+}
+.social-team-icon {
+    fill: currentColor;
+}
+.social-team-link:hover,
+.social-team-link:focus {
+    background: var(--web-text);
+    color: #FFFFFF;
+}
+
 
 
 
