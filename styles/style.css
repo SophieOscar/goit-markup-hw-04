@@ -535,6 +535,7 @@ body {
     text-transform: uppercase;
     color: var(--back-color);
     margin-bottom: 20px;
+    padding: 0px;
 }
 .container-footer {
     display: flex;
