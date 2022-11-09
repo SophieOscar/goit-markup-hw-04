@@ -118,13 +118,13 @@ body {
 .icon-smartphone {
     margin-right: 10px;
 }
-.header-link:hover .icon-smartphone {
+.header-link:hover, .header-link:focus .icon-smartphone {
     fill: var(--web-text);
 }
 .envelope-icon {
     margin-right: 10px;
 }
-.header-link:hover .envelope-icon {
+.header-link:hover, .header-link:focus .envelope-icon {
     fill: var(--web-text);
 }
 
